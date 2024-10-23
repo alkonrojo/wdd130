@@ -236,7 +236,7 @@ form {
     padding: 1rem;
     border: 1px solid rgba(0, 0,0, 0.6);
     border-radius: 0.5rem;
-    background-color: var(--accent-color-one);
+    background-color: var(--accent-color-two);
     display: grid;
     font-family: var(--paragraph-font);
 }
@@ -257,8 +257,8 @@ legend {
 }
 button {
     margin: 1rem;
-    background-color: var(--accent-color-two);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--accent-color-two);
     border-radius: 0.5rem;
     border: none;
     padding: 0.75rem;
@@ -266,7 +266,7 @@ button {
     font-weight:400;
 }
 button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent-color-two);
 }
 .form-lines {
